@@ -36,7 +36,7 @@ if choice in rooms:
 	elif time =="hours":
 		hours=int(input('enter your hours:'))
 		total=hours * (rooms[choice]/24)
-		print('total')
+		print(total)
 		print('					customer Information					 ')
 		print("room:",choice)
 		print('name:',name,end="		")
